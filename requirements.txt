@@ -1,0 +1,21 @@
+Django==4.2.7
+djangorestframework==3.14.0
+gunicorn==21.2.0
+# For audio transcription and diarization
+torch==2.0.1
+torchaudio==2.0.2
+openai-whisper==20231117
+pyannote.audio==3.1.1
+soundfile==0.12.1
+# NLP for title suggestions
+transformers==4.35.2
+sentencepiece==0.1.99
+numpy==1.24.3
+# API documentation
+drf-yasg==1.21.7
+# For handling audio files
+pydub==0.25.1
+# For file handling
+python-magic==0.4.27
+# For environment variables
+python-dotenv==1.0.0
